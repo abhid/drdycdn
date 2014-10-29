@@ -3,9 +3,9 @@ image: abhid/ubuntu
 script:
   - env
   - ftp
-  open {{ftp_host}}
-  {{ftp_user}}
-  {{ftp_password}}
+  - open {{ftp_host}}
+  - {{ftp_user}}
+  - {{ftp_password}}
   
 
 notify:
