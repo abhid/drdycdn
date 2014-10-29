@@ -2,6 +2,10 @@ image: abhid/ubuntu
 
 script:
   - env
+  - echo {ftp_host}
+  - echo {ftp_user}
+  - echo {ftp_password}
+  
 
 notify:
   email:
