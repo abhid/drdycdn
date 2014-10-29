@@ -2,7 +2,7 @@ image: abhid/ubuntu
 
 script:
   - env
-  - scp -Cv -r libs/* drdyus@drdy.us:/home2/drdyus/public_html/cdn.drdy.us
+  - scp -Cv -r libs/* drdyus@drdy.us:/home2/drdyus/public_html/cdn.drdy.us/libs/
 
 notify:
   email:
