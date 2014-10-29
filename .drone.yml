@@ -1,0 +1,9 @@
+image: abhid/ubuntu
+
+script:
+  - env
+
+notify:
+  email:
+    recipients:
+      - abhi@devireddy.com
