@@ -2,11 +2,7 @@ image: abhid/ubuntu
 
 script:
   - env
-  - ftp
-  - open {{ftp_host}}
-  - {{ftp_user}}
-  - {{ftp_password}}
-  
+  - scp -Cv -r * drdyus@drdy.us:/home2/drdyus/public_html/cdn.drdy.us
 
 notify:
   email:
